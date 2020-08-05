@@ -1,0 +1,32 @@
+2020-08-05 16:50:53,886 root INFO runner:24 Start to execute  automation cases
+2020-08-05 16:50:54,246 root INFO baseapis:10 init base api interface
+2020-08-05 16:50:54,246 root INFO baseapis:13 corp_id=ww11cf851bb266917f
+2020-08-05 16:50:54,246 root INFO depmanagment:15 Init department management API
+2020-08-05 16:50:54,247 root INFO depmanagment:23 AAAAAAAAAAAAAAAAAAAAAAAInStBwQ2fu45EOOxAIPi9pxXqJZ0Z_yQ7iASFc5BPC4
+2020-08-05 16:50:54,247 root DEBUG depmanagment:32 url
+2020-08-05 16:50:54,247 root INFO baseapis:20 CCCCCCCCCCCCww11cf851bb266917f
+2020-08-05 16:50:54,247 root INFO baseapis:21 params+++++++++++++{'222222222222corpid': 'ww11cf851bb266917f', 'corpsecret': 'InStBwQ2fu45EOOxAIPi9pxXqJZ0Z_yQ7iASFc5BPC4'}
+2020-08-05 16:50:54,247 root INFO baseapis:22 token_urlhttps://qyapi.weixin.qq.com/cgi-bin/gettoken
+2020-08-05 16:50:54,254 urllib3.connectionpool DEBUG connectionpool:813 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2020-08-05 16:50:54,501 urllib3.connectionpool DEBUG connectionpool:393 https://qyapi.weixin.qq.com:443 "GET /cgi-bin/gettoken?222222222222corpid=ww11cf851bb266917f&corpsecret=InStBwQ2fu45EOOxAIPi9pxXqJZ0Z_yQ7iASFc5BPC4 HTTP/1.1" 200 43
+2020-08-05 16:50:54,505 root INFO baseapis:24 BBBBBBBBBBB{'errcode': 41002, 'errmsg': 'corpid missing'}
+2020-08-05 16:50:54,505 root DEBUG depmanagment:35 params:{'access_token': None}
+2020-08-05 16:50:54,507 urllib3.connectionpool DEBUG connectionpool:813 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2020-08-05 16:50:54,745 urllib3.connectionpool DEBUG connectionpool:393 https://qyapi.weixin.qq.com:443 "POST /cgi-bin/department/create HTTP/1.1" 200 197
+2020-08-05 16:50:54,817 root INFO runner:36 End to execute Intfacetiaon automaction cases
+2020-08-05 16:51:57,324 root INFO runner:24 Start to execute  automation cases
+2020-08-05 16:51:57,675 root INFO baseapis:10 init base api interface
+2020-08-05 16:51:57,675 root INFO baseapis:13 corp_id=ww11cf851bb266917f
+2020-08-05 16:51:57,675 root INFO depmanagment:15 Init department management API
+2020-08-05 16:51:57,675 root INFO depmanagment:23 AAAAAAAAAAAAAAAAAAAAAAAInStBwQ2fu45EOOxAIPi9pxXqJZ0Z_yQ7iASFc5BPC4
+2020-08-05 16:51:57,675 root DEBUG depmanagment:32 url
+2020-08-05 16:51:57,675 root INFO baseapis:20 CCCCCCCCCCCCww11cf851bb266917f
+2020-08-05 16:51:57,675 root INFO baseapis:21 params+++++++++++++{'corpid': 'ww11cf851bb266917f', 'corpsecret': 'InStBwQ2fu45EOOxAIPi9pxXqJZ0Z_yQ7iASFc5BPC4'}
+2020-08-05 16:51:57,675 root INFO baseapis:22 token_urlhttps://qyapi.weixin.qq.com/cgi-bin/gettoken
+2020-08-05 16:51:57,682 urllib3.connectionpool DEBUG connectionpool:813 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2020-08-05 16:51:57,965 urllib3.connectionpool DEBUG connectionpool:393 https://qyapi.weixin.qq.com:443 "GET /cgi-bin/gettoken?corpid=ww11cf851bb266917f&corpsecret=InStBwQ2fu45EOOxAIPi9pxXqJZ0Z_yQ7iASFc5BPC4 HTTP/1.1" 200 277
+2020-08-05 16:51:57,970 root INFO baseapis:24 BBBBBBBBBBB{'errcode': 0, 'errmsg': 'ok', 'access_token': 'uQ39FzGc45IZTjMcBXiyxpbUfdQ1hX6oFN5CjypH-PMTF8D8szkoEH4dwrrmor1j7B1uRZhWpUKDDJjSq_gFjwEuQjrDIf2iWwFysWmQ6S3oZHWEH2tVLlNnx4hWgMEmmz3bnQz_OZF90PG_uVRSAHWcaff6wL_wVjqnnbzhbmFBskGwdyDhXVP0ZwQTDLUXeSR_WzBQvHUJ0vBbEj_PZQ', 'expires_in': 7200}
+2020-08-05 16:51:57,970 root DEBUG depmanagment:35 params:{'access_token': 'uQ39FzGc45IZTjMcBXiyxpbUfdQ1hX6oFN5CjypH-PMTF8D8szkoEH4dwrrmor1j7B1uRZhWpUKDDJjSq_gFjwEuQjrDIf2iWwFysWmQ6S3oZHWEH2tVLlNnx4hWgMEmmz3bnQz_OZF90PG_uVRSAHWcaff6wL_wVjqnnbzhbmFBskGwdyDhXVP0ZwQTDLUXeSR_WzBQvHUJ0vBbEj_PZQ'}
+2020-08-05 16:51:57,972 urllib3.connectionpool DEBUG connectionpool:813 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2020-08-05 16:51:58,416 urllib3.connectionpool DEBUG connectionpool:393 https://qyapi.weixin.qq.com:443 "POST /cgi-bin/department/create?access_token=uQ39FzGc45IZTjMcBXiyxpbUfdQ1hX6oFN5CjypH-PMTF8D8szkoEH4dwrrmor1j7B1uRZhWpUKDDJjSq_gFjwEuQjrDIf2iWwFysWmQ6S3oZHWEH2tVLlNnx4hWgMEmmz3bnQz_OZF90PG_uVRSAHWcaff6wL_wVjqnnbzhbmFBskGwdyDhXVP0ZwQTDLUXeSR_WzBQvHUJ0vBbEj_PZQ HTTP/1.1" 200 39
+2020-08-05 16:51:58,425 root INFO runner:36 End to execute Intfacetiaon automaction cases
